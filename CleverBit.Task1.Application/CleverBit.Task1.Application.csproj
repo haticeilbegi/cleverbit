@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="5.0.17" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CleverBit.Task1.Common\CleverBit.Task1.Common.csproj" />
+    <ProjectReference Include="..\CleverBit.Task1.Services\CleverBit.Task1.Services.csproj" />
+  </ItemGroup>
+
+</Project>
